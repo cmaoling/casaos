@@ -35,7 +35,6 @@ x-casaos:
   category: Pentest
   description:
     en_us: The Browser Exploitation Framework Project.
-    zh_cn: 一款开源的浏览器利用框架，专注于Web浏览器的安全漏洞利用和攻击。
   developer: beefproject
   icon: https://raw.githubusercontent.com/arch3rPro/Pentest-Docker/master/Apps/BeEF/BeEF.png  
   screenshot_link:
@@ -53,5 +52,5 @@ x-casaos:
       username: beef-xss
       password: beef-xss
   title:
-    custom: BeEF
+    custom: BeEF-mirror
   port_map: "3100"

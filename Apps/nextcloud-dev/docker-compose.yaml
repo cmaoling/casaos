@@ -94,7 +94,7 @@ x-casaos:
     - https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Nextcloud/screenshot-1.png
     - https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Nextcloud/screenshot-2.png
     - https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Nextcloud/screenshot-3.png
-  store_app_id: nextcloud
+  store_app_id: nextcloud-dev
   tagline:
     ar_sa: منصة الإنتاجية التي تبقيك تحت سيطرتك
     de_de: Die Produktivitätsplattform, die Sie unter Kontrolle hält

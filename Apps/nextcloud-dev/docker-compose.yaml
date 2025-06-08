@@ -1,4 +1,4 @@
-name: nextcloud
+name: nextcloud-dev
 services:
   nextcloud:
     cpu_shares: 90
@@ -11,7 +11,7 @@ services:
         reservations:
           memory: "536870912"
     hostname: nextcloud
-    image: nextcloud:27.1.3
+    image: nextcloud:26.1.3
     labels:
       icon: https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Nextcloud/icon.png
     ports:
@@ -40,7 +40,7 @@ x-casaos:
     - mips64le
     - ppc64le
     - s390x
-  author: CasaOS Team
+  author: Me
   category: Cloud
   description:
     ar_sa: يضع Nextcloud بياناتك في أصابعك، تحت سيطرتك. احفظ مستنداتك والتقويم وجهات

@@ -41,7 +41,7 @@ x-casaos:
     - mips64le
     - ppc64le
     - s390x
-  author: CasaOS Team
+  author: Community
   category: Cloud
   description:
     ar_sa: يضع Nextcloud بياناتك في أصابعك، تحت سيطرتك. احفظ مستنداتك والتقويم وجهات

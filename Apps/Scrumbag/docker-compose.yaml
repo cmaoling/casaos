@@ -1,0 +1,14 @@
+version: "3.9"
+services:
+  ca:
+    image: colinas/step-ca:latest
+    privileged: false
+    restart: always
+    env_file:
+      - ./.env-ca
+    ports:
+      - ${IP}:${PORT}:9000/tcp
+    volumes:
+      - type: bind
+        source: ${CONFIGPATH}
+        target: /home/step
